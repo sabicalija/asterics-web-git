@@ -1,0 +1,23 @@
+{
+  "name": "asterics-web-git",
+  "version": "0.0.1",
+  "description": "asterics-web git utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabicalija/asterics-web-git.git"
+  },
+  "keywords": [
+    "asterics",
+    "git"
+  ],
+  "author": "Sabic Alija",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sabicalija/asterics-web-git/issues"
+  },
+  "homepage": "https://github.com/sabicalija/asterics-web-git#readme"
+}
