@@ -1,5 +1,5 @@
 function hello(x) {
-  console.log(x);
+  console.log("Hello " + x);
 }
 
 module.exports = { hello };
