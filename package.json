@@ -1,6 +1,6 @@
 {
   "name": "asterics-web-git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "asterics-web git utilities",
   "main": "index.js",
   "scripts": {
