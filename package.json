@@ -4,6 +4,8 @@
   "description": "asterics-web git utilities",
   "main": "index.js",
   "scripts": {
+    "transpile": "babel src --out-dir .compiled --source-maps --watch",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,19 @@
   "bugs": {
     "url": "https://github.com/sabicalija/asterics-web-git/issues"
   },
-  "homepage": "https://github.com/sabicalija/asterics-web-git#readme"
+  "homepage": "https://github.com/sabicalija/asterics-web-git#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.12.0",
+    "eslint-loader": "^2.1.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
 }
