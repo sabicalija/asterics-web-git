@@ -1,5 +1,7 @@
-const fs = require("fs");
-const path = require("path");
+// const fs = require("fs");
+// const path = require("path");
+import fs from "fs";
+import path from "path";
 
 function mapDirectoryStats(dirPath, dirName) {
   let p = `${dirPath}/${dirName}`;
@@ -15,7 +17,7 @@ function isLocalRepositoryPath(dirPath) {
   return folders.length > 0;
 }
 
-function gitLocalPath(from, name) {
+export function gitLocalPath(from, name) {
   let auto = /^auto:/,
     remote = /^remote/,
     resultPath;
@@ -53,6 +55,6 @@ function gitLocalPath(from, name) {
   return resultPath;
 }
 
-module.exports = {
-  gitLocalPath
-};
+// module.exports = {
+//   gitLocalPath
+// };

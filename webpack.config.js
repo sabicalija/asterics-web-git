@@ -1,7 +1,7 @@
 // const webpack = require("webpack");
 const path = require("path");
 
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+// const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
   entry: path.join(__dirname, "src/index.js"),
@@ -9,9 +9,9 @@ module.exports = {
     path: path.join(__dirname, "dist"),
     filename: "index.js"
   },
-  optimization: {
-    minimizer: [new UglifyJsPlugin()]
-  },
+  // optimization: {
+  //   minimizer: [new UglifyJsPlugin()]
+  // },
   node: {
     fs: "empty"
   },
